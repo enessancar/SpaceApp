@@ -25,6 +25,8 @@
 		EC56FAF72AD7F3580078459E /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC56FAF62AD7F3580078459E /* UIViewController+Ext.swift */; };
 		EC56FAF92AD7F3790078459E /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC56FAF82AD7F3790078459E /* Double.swift */; };
 		EC56FAFB2AD7FD520078459E /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC56FAFA2AD7FD520078459E /* NetworkManager.swift */; };
+		EC56FAFF2AD80C160078459E /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC56FAFE2AD80C160078459E /* HomeVC.swift */; };
+		EC56FB012AD80C750078459E /* Launch.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC56FB002AD80C750078459E /* Launch.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +48,8 @@
 		EC56FAF62AD7F3580078459E /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
 		EC56FAF82AD7F3790078459E /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
 		EC56FAFA2AD7FD520078459E /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		EC56FAFE2AD80C160078459E /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		EC56FB002AD80C750078459E /* Launch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Launch.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +143,7 @@
 		EC56FAD92AD7D18B0078459E /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				EC56FB002AD80C750078459E /* Launch.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -174,6 +179,8 @@
 		EC56FADD2AD7D1AC0078459E /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				EC56FAFD2AD80C0A0078459E /* DetailScreen */,
+				EC56FAFC2AD80C050078459E /* HomeScreen */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -187,6 +194,21 @@
 				EC56FACB2AD7D05C0078459E /* LaunchScreen.storyboard */,
 			);
 			path = Support;
+			sourceTree = "<group>";
+		};
+		EC56FAFC2AD80C050078459E /* HomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				EC56FAFE2AD80C160078459E /* HomeVC.swift */,
+			);
+			path = HomeScreen;
+			sourceTree = "<group>";
+		};
+		EC56FAFD2AD80C0A0078459E /* DetailScreen */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DetailScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,10 +290,12 @@
 			files = (
 				EC56FAE42AD7D8FB0078459E /* Constants.swift in Sources */,
 				EC56FAF02AD7ED080078459E /* UIView+Ext.swift in Sources */,
+				EC56FB012AD80C750078459E /* Launch.swift in Sources */,
 				EC56FAF72AD7F3580078459E /* UIViewController+Ext.swift in Sources */,
 				EC56FAE22AD7D6B50078459E /* APIURLs.swift in Sources */,
 				EC56FAF92AD7F3790078459E /* Double.swift in Sources */,
 				EC56FAC12AD7D05A0078459E /* AppDelegate.swift in Sources */,
+				EC56FAFF2AD80C160078459E /* HomeVC.swift in Sources */,
 				EC56FAE02AD7D29B0078459E /* CacheManager.swift in Sources */,
 				EC56FAC32AD7D05A0078459E /* SceneDelegate.swift in Sources */,
 				EC56FAE82AD7DA960078459E /* LaunchType.swift in Sources */,
