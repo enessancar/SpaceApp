@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+enum LaunchType {
+    case upcoming
+    case past
+}
