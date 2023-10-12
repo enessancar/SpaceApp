@@ -24,6 +24,7 @@
 		EC56FAF52AD7F2980078459E /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = EC56FAF42AD7F2980078459E /* SnapKit-Dynamic */; };
 		EC56FAF72AD7F3580078459E /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC56FAF62AD7F3580078459E /* UIViewController+Ext.swift */; };
 		EC56FAF92AD7F3790078459E /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC56FAF82AD7F3790078459E /* Double.swift */; };
+		EC56FAFB2AD7FD520078459E /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC56FAFA2AD7FD520078459E /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		EC56FAEF2AD7ED080078459E /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
 		EC56FAF62AD7F3580078459E /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
 		EC56FAF82AD7F3790078459E /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+		EC56FAFA2AD7FD520078459E /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				EC56FADF2AD7D29B0078459E /* CacheManager.swift */,
+				EC56FAFA2AD7FD520078459E /* NetworkManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 				EC56FAC32AD7D05A0078459E /* SceneDelegate.swift in Sources */,
 				EC56FAE82AD7DA960078459E /* LaunchType.swift in Sources */,
 				EC56FAEC2AD7E9CC0078459E /* CGFloat+Ext.swift in Sources */,
+				EC56FAFB2AD7FD520078459E /* NetworkManager.swift in Sources */,
 				EC56FAE62AD7DA7A0078459E /* CustomError.swift in Sources */,
 				EC56FAEA2AD7DB2C0078459E /* UIHelper.swift in Sources */,
 				EC56FAEE2AD7EB750078459E /* Date+Ext.swift in Sources */,
