@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+extension Double {
+    func unixToDate() -> Date {
+        Date(timeIntervalSince1970: self)
+    }
+}

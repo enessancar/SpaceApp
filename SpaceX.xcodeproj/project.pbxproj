@@ -16,6 +16,14 @@
 		EC56FAE42AD7D8FB0078459E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC56FAE32AD7D8FB0078459E /* Constants.swift */; };
 		EC56FAE62AD7DA7A0078459E /* CustomError.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC56FAE52AD7DA7A0078459E /* CustomError.swift */; };
 		EC56FAE82AD7DA960078459E /* LaunchType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC56FAE72AD7DA960078459E /* LaunchType.swift */; };
+		EC56FAEA2AD7DB2C0078459E /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC56FAE92AD7DB2C0078459E /* UIHelper.swift */; };
+		EC56FAEC2AD7E9CC0078459E /* CGFloat+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC56FAEB2AD7E9CC0078459E /* CGFloat+Ext.swift */; };
+		EC56FAEE2AD7EB750078459E /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC56FAED2AD7EB750078459E /* Date+Ext.swift */; };
+		EC56FAF02AD7ED080078459E /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC56FAEF2AD7ED080078459E /* UIView+Ext.swift */; };
+		EC56FAF32AD7F2980078459E /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = EC56FAF22AD7F2980078459E /* SnapKit */; };
+		EC56FAF52AD7F2980078459E /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = EC56FAF42AD7F2980078459E /* SnapKit-Dynamic */; };
+		EC56FAF72AD7F3580078459E /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC56FAF62AD7F3580078459E /* UIViewController+Ext.swift */; };
+		EC56FAF92AD7F3790078459E /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC56FAF82AD7F3790078459E /* Double.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +38,12 @@
 		EC56FAE32AD7D8FB0078459E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		EC56FAE52AD7DA7A0078459E /* CustomError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomError.swift; sourceTree = "<group>"; };
 		EC56FAE72AD7DA960078459E /* LaunchType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchType.swift; sourceTree = "<group>"; };
+		EC56FAE92AD7DB2C0078459E /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
+		EC56FAEB2AD7E9CC0078459E /* CGFloat+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGFloat+Ext.swift"; sourceTree = "<group>"; };
+		EC56FAED2AD7EB750078459E /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
+		EC56FAEF2AD7ED080078459E /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
+		EC56FAF62AD7F3580078459E /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
+		EC56FAF82AD7F3790078459E /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +51,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC56FAF32AD7F2980078459E /* SnapKit in Frameworks */,
+				EC56FAF52AD7F2980078459E /* SnapKit-Dynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +100,7 @@
 		EC56FAD52AD7D1100078459E /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				EC56FAE92AD7DB2C0078459E /* UIHelper.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -126,6 +143,11 @@
 		EC56FADA2AD7D1930078459E /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				EC56FAEB2AD7E9CC0078459E /* CGFloat+Ext.swift */,
+				EC56FAED2AD7EB750078459E /* Date+Ext.swift */,
+				EC56FAEF2AD7ED080078459E /* UIView+Ext.swift */,
+				EC56FAF82AD7F3790078459E /* Double.swift */,
+				EC56FAF62AD7F3580078459E /* UIViewController+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -180,6 +202,10 @@
 			dependencies = (
 			);
 			name = SpaceX;
+			packageProductDependencies = (
+				EC56FAF22AD7F2980078459E /* SnapKit */,
+				EC56FAF42AD7F2980078459E /* SnapKit-Dynamic */,
+			);
 			productName = SpaceX;
 			productReference = EC56FABD2AD7D05A0078459E /* SpaceX.app */;
 			productType = "com.apple.product-type.application";
@@ -208,6 +234,9 @@
 				Base,
 			);
 			mainGroup = EC56FAB42AD7D05A0078459E;
+			packageReferences = (
+				EC56FAF12AD7F2980078459E /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = EC56FABE2AD7D05A0078459E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -235,12 +264,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC56FAE42AD7D8FB0078459E /* Constants.swift in Sources */,
+				EC56FAF02AD7ED080078459E /* UIView+Ext.swift in Sources */,
+				EC56FAF72AD7F3580078459E /* UIViewController+Ext.swift in Sources */,
 				EC56FAE22AD7D6B50078459E /* APIURLs.swift in Sources */,
+				EC56FAF92AD7F3790078459E /* Double.swift in Sources */,
 				EC56FAC12AD7D05A0078459E /* AppDelegate.swift in Sources */,
 				EC56FAE02AD7D29B0078459E /* CacheManager.swift in Sources */,
 				EC56FAC32AD7D05A0078459E /* SceneDelegate.swift in Sources */,
 				EC56FAE82AD7DA960078459E /* LaunchType.swift in Sources */,
+				EC56FAEC2AD7E9CC0078459E /* CGFloat+Ext.swift in Sources */,
 				EC56FAE62AD7DA7A0078459E /* CustomError.swift in Sources */,
+				EC56FAEA2AD7DB2C0078459E /* UIHelper.swift in Sources */,
+				EC56FAEE2AD7EB750078459E /* Date+Ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -459,6 +494,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EC56FAF12AD7F2980078459E /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EC56FAF22AD7F2980078459E /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EC56FAF12AD7F2980078459E /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		EC56FAF42AD7F2980078459E /* SnapKit-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EC56FAF12AD7F2980078459E /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = "SnapKit-Dynamic";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = EC56FAB52AD7D05A0078459E /* Project object */;
 }
