@@ -27,6 +27,7 @@
 		EC56FAFB2AD7FD520078459E /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC56FAFA2AD7FD520078459E /* NetworkManager.swift */; };
 		EC56FAFF2AD80C160078459E /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC56FAFE2AD80C160078459E /* HomeVC.swift */; };
 		EC56FB012AD80C750078459E /* Launch.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC56FB002AD80C750078459E /* Launch.swift */; };
+		EC7026C42AD82EB700679FCE /* LaunchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7026C32AD82EB700679FCE /* LaunchService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		EC56FAFA2AD7FD520078459E /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		EC56FAFE2AD80C160078459E /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		EC56FB002AD80C750078459E /* Launch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Launch.swift; sourceTree = "<group>"; };
+		EC7026C32AD82EB700679FCE /* LaunchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +138,7 @@
 		EC56FAD82AD7D1770078459E /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				EC7026C32AD82EB700679FCE /* LaunchService.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -292,6 +295,7 @@
 				EC56FAF02AD7ED080078459E /* UIView+Ext.swift in Sources */,
 				EC56FB012AD80C750078459E /* Launch.swift in Sources */,
 				EC56FAF72AD7F3580078459E /* UIViewController+Ext.swift in Sources */,
+				EC7026C42AD82EB700679FCE /* LaunchService.swift in Sources */,
 				EC56FAE22AD7D6B50078459E /* APIURLs.swift in Sources */,
 				EC56FAF92AD7F3790078459E /* Double.swift in Sources */,
 				EC56FAC12AD7D05A0078459E /* AppDelegate.swift in Sources */,
