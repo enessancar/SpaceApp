@@ -28,6 +28,13 @@
 		EC56FAFF2AD80C160078459E /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC56FAFE2AD80C160078459E /* HomeVC.swift */; };
 		EC56FB012AD80C750078459E /* Launch.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC56FB002AD80C750078459E /* Launch.swift */; };
 		EC7026C42AD82EB700679FCE /* LaunchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7026C32AD82EB700679FCE /* LaunchService.swift */; };
+		EC7026C72AD8312700679FCE /* GFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7026C62AD8312700679FCE /* GFButton.swift */; };
+		EC7026CA2AD8430A00679FCE /* AttributeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7026C92AD8430A00679FCE /* AttributeCell.swift */; };
+		EC7026CD2AD848D600679FCE /* GFImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7026CC2AD848D600679FCE /* GFImageView.swift */; };
+		EC7026D02AD84BC000679FCE /* GFTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7026CF2AD84BC000679FCE /* GFTitleLabel.swift */; };
+		EC7026D22AD84C0900679FCE /* GFBodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7026D12AD84C0900679FCE /* GFBodyLabel.swift */; };
+		EC7026D52AD84C7200679FCE /* GFAlertContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7026D42AD84C7200679FCE /* GFAlertContainerView.swift */; };
+		EC7026D72AD88CA900679FCE /* GFStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7026D62AD88CA900679FCE /* GFStackView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +59,13 @@
 		EC56FAFE2AD80C160078459E /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		EC56FB002AD80C750078459E /* Launch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Launch.swift; sourceTree = "<group>"; };
 		EC7026C32AD82EB700679FCE /* LaunchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchService.swift; sourceTree = "<group>"; };
+		EC7026C62AD8312700679FCE /* GFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFButton.swift; sourceTree = "<group>"; };
+		EC7026C92AD8430A00679FCE /* AttributeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttributeCell.swift; sourceTree = "<group>"; };
+		EC7026CC2AD848D600679FCE /* GFImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFImageView.swift; sourceTree = "<group>"; };
+		EC7026CF2AD84BC000679FCE /* GFTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTitleLabel.swift; sourceTree = "<group>"; };
+		EC7026D12AD84C0900679FCE /* GFBodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFBodyLabel.swift; sourceTree = "<group>"; };
+		EC7026D42AD84C7200679FCE /* GFAlertContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAlertContainerView.swift; sourceTree = "<group>"; };
+		EC7026D62AD88CA900679FCE /* GFStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFStackView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +189,11 @@
 		EC56FADC2AD7D1A10078459E /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				EC7026C52AD8311600679FCE /* Buttons */,
+				EC7026C82AD842F600679FCE /* Cells */,
+				EC7026CB2AD848B900679FCE /* ImageView */,
+				EC7026CE2AD84BA900679FCE /* Labels */,
+				EC7026D32AD84C3700679FCE /* StackViews */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -212,6 +231,48 @@
 			children = (
 			);
 			path = DetailScreen;
+			sourceTree = "<group>";
+		};
+		EC7026C52AD8311600679FCE /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				EC7026C62AD8312700679FCE /* GFButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		EC7026C82AD842F600679FCE /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				EC7026C92AD8430A00679FCE /* AttributeCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		EC7026CB2AD848B900679FCE /* ImageView */ = {
+			isa = PBXGroup;
+			children = (
+				EC7026CC2AD848D600679FCE /* GFImageView.swift */,
+			);
+			path = ImageView;
+			sourceTree = "<group>";
+		};
+		EC7026CE2AD84BA900679FCE /* Labels */ = {
+			isa = PBXGroup;
+			children = (
+				EC7026CF2AD84BC000679FCE /* GFTitleLabel.swift */,
+				EC7026D12AD84C0900679FCE /* GFBodyLabel.swift */,
+			);
+			path = Labels;
+			sourceTree = "<group>";
+		};
+		EC7026D32AD84C3700679FCE /* StackViews */ = {
+			isa = PBXGroup;
+			children = (
+				EC7026D42AD84C7200679FCE /* GFAlertContainerView.swift */,
+				EC7026D62AD88CA900679FCE /* GFStackView.swift */,
+			);
+			path = StackViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -292,12 +353,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC56FAE42AD7D8FB0078459E /* Constants.swift in Sources */,
+				EC7026D52AD84C7200679FCE /* GFAlertContainerView.swift in Sources */,
+				EC7026D72AD88CA900679FCE /* GFStackView.swift in Sources */,
 				EC56FAF02AD7ED080078459E /* UIView+Ext.swift in Sources */,
 				EC56FB012AD80C750078459E /* Launch.swift in Sources */,
 				EC56FAF72AD7F3580078459E /* UIViewController+Ext.swift in Sources */,
 				EC7026C42AD82EB700679FCE /* LaunchService.swift in Sources */,
 				EC56FAE22AD7D6B50078459E /* APIURLs.swift in Sources */,
 				EC56FAF92AD7F3790078459E /* Double.swift in Sources */,
+				EC7026CD2AD848D600679FCE /* GFImageView.swift in Sources */,
 				EC56FAC12AD7D05A0078459E /* AppDelegate.swift in Sources */,
 				EC56FAFF2AD80C160078459E /* HomeVC.swift in Sources */,
 				EC56FAE02AD7D29B0078459E /* CacheManager.swift in Sources */,
@@ -305,7 +369,11 @@
 				EC56FAE82AD7DA960078459E /* LaunchType.swift in Sources */,
 				EC56FAEC2AD7E9CC0078459E /* CGFloat+Ext.swift in Sources */,
 				EC56FAFB2AD7FD520078459E /* NetworkManager.swift in Sources */,
+				EC7026CA2AD8430A00679FCE /* AttributeCell.swift in Sources */,
+				EC7026C72AD8312700679FCE /* GFButton.swift in Sources */,
+				EC7026D22AD84C0900679FCE /* GFBodyLabel.swift in Sources */,
 				EC56FAE62AD7DA7A0078459E /* CustomError.swift in Sources */,
+				EC7026D02AD84BC000679FCE /* GFTitleLabel.swift in Sources */,
 				EC56FAEA2AD7DB2C0078459E /* UIHelper.swift in Sources */,
 				EC56FAEE2AD7EB750078459E /* Date+Ext.swift in Sources */,
 			);

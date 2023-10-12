@@ -7,7 +7,7 @@
 
 import UIKit
 
-final class FKTitleLabel: UILabel {
+final class GFTitleLabel: UILabel {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -27,10 +27,8 @@ final class FKTitleLabel: UILabel {
     }
     
     private func configure() {
-        translatesAutoresizingMaskIntoConstraints = false
-        
         numberOfLines = 1
-        textColor = .theme.primaryBlack
+        textColor = .black
         
         adjustsFontForContentSizeCategory = true
         adjustsFontSizeToFitWidth = true
