@@ -37,6 +37,9 @@
 		EC7026D72AD88CA900679FCE /* GFStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7026D62AD88CA900679FCE /* GFStackView.swift */; };
 		EC7026DB2AD88F5B00679FCE /* DateComponentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7026DA2AD88F5B00679FCE /* DateComponentView.swift */; };
 		EC7026DD2AD8927B00679FCE /* LaunchHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7026DC2AD8927B00679FCE /* LaunchHeaderView.swift */; };
+		EC7026DF2AD9306600679FCE /* LinkItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7026DE2AD9306600679FCE /* LinkItemView.swift */; };
+		EC7026E12AD9605300679FCE /* PastLaunchDateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7026E02AD9605300679FCE /* PastLaunchDateView.swift */; };
+		EC7026E32AD973F400679FCE /* StaticDateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7026E22AD973F400679FCE /* StaticDateView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,6 +73,9 @@
 		EC7026D62AD88CA900679FCE /* GFStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFStackView.swift; sourceTree = "<group>"; };
 		EC7026DA2AD88F5B00679FCE /* DateComponentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateComponentView.swift; sourceTree = "<group>"; };
 		EC7026DC2AD8927B00679FCE /* LaunchHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchHeaderView.swift; sourceTree = "<group>"; };
+		EC7026DE2AD9306600679FCE /* LinkItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkItemView.swift; sourceTree = "<group>"; };
+		EC7026E02AD9605300679FCE /* PastLaunchDateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastLaunchDateView.swift; sourceTree = "<group>"; };
+		EC7026E22AD973F400679FCE /* StaticDateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticDateView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -293,6 +299,9 @@
 			children = (
 				EC7026DA2AD88F5B00679FCE /* DateComponentView.swift */,
 				EC7026DC2AD8927B00679FCE /* LaunchHeaderView.swift */,
+				EC7026E02AD9605300679FCE /* PastLaunchDateView.swift */,
+				EC7026DE2AD9306600679FCE /* LinkItemView.swift */,
+				EC7026E22AD973F400679FCE /* StaticDateView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -384,14 +393,17 @@
 				EC7026C42AD82EB700679FCE /* LaunchService.swift in Sources */,
 				EC56FAE22AD7D6B50078459E /* APIURLs.swift in Sources */,
 				EC7026DB2AD88F5B00679FCE /* DateComponentView.swift in Sources */,
+				EC7026E32AD973F400679FCE /* StaticDateView.swift in Sources */,
 				EC56FAF92AD7F3790078459E /* Double.swift in Sources */,
 				EC7026CD2AD848D600679FCE /* GFImageView.swift in Sources */,
 				EC56FAC12AD7D05A0078459E /* AppDelegate.swift in Sources */,
+				EC7026DF2AD9306600679FCE /* LinkItemView.swift in Sources */,
 				EC56FAFF2AD80C160078459E /* HomeVC.swift in Sources */,
 				EC56FAE02AD7D29B0078459E /* CacheManager.swift in Sources */,
 				EC56FAC32AD7D05A0078459E /* SceneDelegate.swift in Sources */,
 				EC56FAE82AD7DA960078459E /* LaunchType.swift in Sources */,
 				EC56FAEC2AD7E9CC0078459E /* CGFloat+Ext.swift in Sources */,
+				EC7026E12AD9605300679FCE /* PastLaunchDateView.swift in Sources */,
 				EC56FAFB2AD7FD520078459E /* NetworkManager.swift in Sources */,
 				EC7026CA2AD8430A00679FCE /* AttributeCell.swift in Sources */,
 				EC7026C72AD8312700679FCE /* GFButton.swift in Sources */,

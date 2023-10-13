@@ -18,6 +18,11 @@ final class DateComponentView: UIView {
     
     override init(frame: CGRect) {
         super.init(frame: .zero)
+        
+        configureContainerStackView()
+        configureComponentStackView()
+        configureValueLabel()
+        configureComponentLabel()
     }
     
     required init?(coder: NSCoder) {
@@ -26,5 +31,56 @@ final class DateComponentView: UIView {
     
     convenience init(component: String, showColon: Bool = false) {
         self.init(frame: .zero)
+        
+        componentLabel.text = component
+        
+        guard showColon else { return }
+        configureColonLabel()
+    }
+    
+    func setup(value: String) {
+        valueLabel.text = value
+    }
+    
+    
+    private func configureContainerStackView() {
+        containerStackView = GFStackView(axis: .horizontal)
+        addSubview(containerStackView)
+        
+        containerStackView.spacing = 8
+        containerStackView.alignment = .top
+        
+        containerStackView.snp.makeConstraints { make in
+            make.edges.equalToSuperview()
+        }
+    }
+    
+    private func configureComponentStackView() {
+        componentStackView = GFStackView(axis: .vertical)
+        containerStackView.addArrangedSubview(componentStackView)
+        
+        componentStackView.spacing = 2
+        componentStackView.alignment = .leading
+    }
+    
+    private func configureValueLabel() {
+        valueLabel = GFTitleLabel(text: "", textAlignment: .left, fontSize: .title1)
+        componentStackView.addArrangedSubview(valueLabel)
+        
+        valueLabel.textColor = .white
+    }
+    
+    private func configureComponentLabel() {
+        componentLabel = GFBodyLabel(text: "", textAlignment: .left, fontSize: .caption)
+        componentStackView.addArrangedSubview(componentLabel)
+        
+        componentLabel.textColor = .white
+    }
+    
+    private func configureColonLabel() {
+        colonLabel = GFTitleLabel(text: ":", textAlignment: .left, fontSize: .title1)
+        containerStackView.addArrangedSubview(colonLabel)
+        
+        colonLabel.textColor = .white
     }
 }
