@@ -40,6 +40,7 @@
 		EC7026DF2AD9306600679FCE /* LinkItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7026DE2AD9306600679FCE /* LinkItemView.swift */; };
 		EC7026E12AD9605300679FCE /* PastLaunchDateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7026E02AD9605300679FCE /* PastLaunchDateView.swift */; };
 		EC7026E32AD973F400679FCE /* StaticDateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7026E22AD973F400679FCE /* StaticDateView.swift */; };
+		EC7026E52AD9915600679FCE /* GFAlertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7026E42AD9915600679FCE /* GFAlertVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -76,6 +77,7 @@
 		EC7026DE2AD9306600679FCE /* LinkItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkItemView.swift; sourceTree = "<group>"; };
 		EC7026E02AD9605300679FCE /* PastLaunchDateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastLaunchDateView.swift; sourceTree = "<group>"; };
 		EC7026E22AD973F400679FCE /* StaticDateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticDateView.swift; sourceTree = "<group>"; };
+		EC7026E42AD9915600679FCE /* GFAlertVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAlertVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -290,6 +292,7 @@
 		EC7026D82AD88E4B00679FCE /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				EC7026E42AD9915600679FCE /* GFAlertVC.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -387,6 +390,7 @@
 				EC7026D52AD84C7200679FCE /* GFAlertContainerView.swift in Sources */,
 				EC7026D72AD88CA900679FCE /* GFStackView.swift in Sources */,
 				EC56FAF02AD7ED080078459E /* UIView+Ext.swift in Sources */,
+				EC7026E52AD9915600679FCE /* GFAlertVC.swift in Sources */,
 				EC7026DD2AD8927B00679FCE /* LaunchHeaderView.swift in Sources */,
 				EC56FB012AD80C750078459E /* Launch.swift in Sources */,
 				EC56FAF72AD7F3580078459E /* UIViewController+Ext.swift in Sources */,
