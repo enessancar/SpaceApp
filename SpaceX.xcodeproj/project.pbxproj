@@ -35,6 +35,8 @@
 		EC7026D22AD84C0900679FCE /* GFBodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7026D12AD84C0900679FCE /* GFBodyLabel.swift */; };
 		EC7026D52AD84C7200679FCE /* GFAlertContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7026D42AD84C7200679FCE /* GFAlertContainerView.swift */; };
 		EC7026D72AD88CA900679FCE /* GFStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7026D62AD88CA900679FCE /* GFStackView.swift */; };
+		EC7026DB2AD88F5B00679FCE /* DateComponentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7026DA2AD88F5B00679FCE /* DateComponentView.swift */; };
+		EC7026DD2AD8927B00679FCE /* LaunchHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7026DC2AD8927B00679FCE /* LaunchHeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +68,8 @@
 		EC7026D12AD84C0900679FCE /* GFBodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFBodyLabel.swift; sourceTree = "<group>"; };
 		EC7026D42AD84C7200679FCE /* GFAlertContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAlertContainerView.swift; sourceTree = "<group>"; };
 		EC7026D62AD88CA900679FCE /* GFStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFStackView.swift; sourceTree = "<group>"; };
+		EC7026DA2AD88F5B00679FCE /* DateComponentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateComponentView.swift; sourceTree = "<group>"; };
+		EC7026DC2AD8927B00679FCE /* LaunchHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchHeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -194,6 +198,8 @@
 				EC7026CB2AD848B900679FCE /* ImageView */,
 				EC7026CE2AD84BA900679FCE /* Labels */,
 				EC7026D32AD84C3700679FCE /* StackViews */,
+				EC7026D92AD88E5300679FCE /* Views */,
+				EC7026D82AD88E4B00679FCE /* ViewControllers */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -273,6 +279,22 @@
 				EC7026D62AD88CA900679FCE /* GFStackView.swift */,
 			);
 			path = StackViews;
+			sourceTree = "<group>";
+		};
+		EC7026D82AD88E4B00679FCE /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		EC7026D92AD88E5300679FCE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EC7026DA2AD88F5B00679FCE /* DateComponentView.swift */,
+				EC7026DC2AD8927B00679FCE /* LaunchHeaderView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -356,10 +378,12 @@
 				EC7026D52AD84C7200679FCE /* GFAlertContainerView.swift in Sources */,
 				EC7026D72AD88CA900679FCE /* GFStackView.swift in Sources */,
 				EC56FAF02AD7ED080078459E /* UIView+Ext.swift in Sources */,
+				EC7026DD2AD8927B00679FCE /* LaunchHeaderView.swift in Sources */,
 				EC56FB012AD80C750078459E /* Launch.swift in Sources */,
 				EC56FAF72AD7F3580078459E /* UIViewController+Ext.swift in Sources */,
 				EC7026C42AD82EB700679FCE /* LaunchService.swift in Sources */,
 				EC56FAE22AD7D6B50078459E /* APIURLs.swift in Sources */,
+				EC7026DB2AD88F5B00679FCE /* DateComponentView.swift in Sources */,
 				EC56FAF92AD7F3790078459E /* Double.swift in Sources */,
 				EC7026CD2AD848D600679FCE /* GFImageView.swift in Sources */,
 				EC56FAC12AD7D05A0078459E /* AppDelegate.swift in Sources */,
