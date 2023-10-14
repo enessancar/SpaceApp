@@ -14,7 +14,7 @@ final class LaunchCell: UICollectionViewCell {
     private var imageView: GFImageView!
     private var stackView: GFStackView!
     private var nameLabel: GFTitleLabel!
-    private let dateLabel: GFBodyLabel!
+    private var dateLabel: GFBodyLabel!
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -90,7 +90,7 @@ final class LaunchCell: UICollectionViewCell {
         stackView.addArrangedSubview(nameLabel)
     }
     
-    private configureDateLabel() {
+    private func configureDateLabel() {
         dateLabel = GFBodyLabel(text: "", textAlignment: .left, fontSize: .body)
         stackView.addArrangedSubview(dateLabel)
     }
