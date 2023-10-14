@@ -40,7 +40,7 @@ final class AttributeCell: UICollectionViewCell {
         layer.borderWidth = .borderWidth
     }
     
-    private func configureStackView() {
+    private func configureStackView() {
         stackView = GFStackView(axis: .vertical)
         addSubview(stackView)
         
