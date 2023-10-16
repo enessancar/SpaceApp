@@ -18,9 +18,10 @@ extension UIViewController {
     }
     
     func presentAlertVC(title: String, body: String, buttonTitle: String) {
-        let alertVC = presentAlertVC(title: title, body: body, buttonTitle: buttonTitle)
-        
-        
+        let alertVC = GFAlertVC(alertTitle: title, alertBody: body, alertButtonTitle: buttonTitle)
+        alertVC.modalTransitionStyle = .crossDissolve
+        alertVC.modalPresentationStyle = .overFullScreen
+        present(alertVC, animated: true)
     }
     
     func presentSafariVC(url: URL) {
