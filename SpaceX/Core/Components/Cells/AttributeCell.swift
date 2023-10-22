@@ -33,6 +33,13 @@ final class AttributeCell: UICollectionViewCell {
         valueLabel.text = value
     }
     
+    override func prepareForReuse() {
+        super.prepareForReuse()
+        
+        attributeLabel.text = nil
+        valueLabel.text = nil
+    }
+    
     private func configure() {
         layer.cornerRadius = .cornerRadius
         

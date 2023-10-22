@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC0C9EA32AE4FFA7003709D2 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC0C9EA22AE4FFA7003709D2 /* Launch Screen.storyboard */; };
+		EC0C9EA62AE50D1C003709D2 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = EC0C9EA52AE50D1C003709D2 /* SnapKit */; };
+		EC0C9EA82AE50D1C003709D2 /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = EC0C9EA72AE50D1C003709D2 /* SnapKit-Dynamic */; };
 		EC56FAC12AD7D05A0078459E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC56FAC02AD7D05A0078459E /* AppDelegate.swift */; };
 		EC56FAC32AD7D05A0078459E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC56FAC22AD7D05A0078459E /* SceneDelegate.swift */; };
 		EC56FACA2AD7D05C0078459E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC56FAC92AD7D05C0078459E /* Assets.xcassets */; };
-		EC56FACD2AD7D05C0078459E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC56FACB2AD7D05C0078459E /* LaunchScreen.storyboard */; };
 		EC56FAE02AD7D29B0078459E /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC56FADF2AD7D29B0078459E /* CacheManager.swift */; };
 		EC56FAE22AD7D6B50078459E /* APIURLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC56FAE12AD7D6B50078459E /* APIURLs.swift */; };
 		EC56FAE42AD7D8FB0078459E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC56FAE32AD7D8FB0078459E /* Constants.swift */; };
@@ -20,8 +22,6 @@
 		EC56FAEC2AD7E9CC0078459E /* CGFloat+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC56FAEB2AD7E9CC0078459E /* CGFloat+Ext.swift */; };
 		EC56FAEE2AD7EB750078459E /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC56FAED2AD7EB750078459E /* Date+Ext.swift */; };
 		EC56FAF02AD7ED080078459E /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC56FAEF2AD7ED080078459E /* UIView+Ext.swift */; };
-		EC56FAF32AD7F2980078459E /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = EC56FAF22AD7F2980078459E /* SnapKit */; };
-		EC56FAF52AD7F2980078459E /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = EC56FAF42AD7F2980078459E /* SnapKit-Dynamic */; };
 		EC56FAF72AD7F3580078459E /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC56FAF62AD7F3580078459E /* UIViewController+Ext.swift */; };
 		EC56FAF92AD7F3790078459E /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC56FAF82AD7F3790078459E /* Double.swift */; };
 		EC56FAFB2AD7FD520078459E /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC56FAFA2AD7FD520078459E /* NetworkManager.swift */; };
@@ -41,14 +41,21 @@
 		EC7026E12AD9605300679FCE /* PastLaunchDateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7026E02AD9605300679FCE /* PastLaunchDateView.swift */; };
 		EC7026E32AD973F400679FCE /* StaticDateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7026E22AD973F400679FCE /* StaticDateView.swift */; };
 		EC7026E52AD9915600679FCE /* GFAlertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7026E42AD9915600679FCE /* GFAlertVC.swift */; };
+		EC7026EF2ADA85C200679FCE /* LaunchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7026EE2ADA85C200679FCE /* LaunchCell.swift */; };
+		EC7026F12ADAEEF300679FCE /* GFAttributesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7026F02ADAEEF300679FCE /* GFAttributesVC.swift */; };
+		EC7026F82ADB032100679FCE /* DataLoadingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7026F72ADB032100679FCE /* DataLoadingVC.swift */; };
+		EC7026FA2ADB2C8B00679FCE /* GFLinksVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7026F92ADB2C8B00679FCE /* GFLinksVC.swift */; };
+		EC7026FC2ADB36B300679FCE /* UpcomingDateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7026FB2ADB36B300679FCE /* UpcomingDateVC.swift */; };
+		EC7026FE2ADBEA4600679FCE /* HomeVCViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7026FD2ADBEA4600679FCE /* HomeVCViewModel.swift */; };
+		EC7027002ADBEED800679FCE /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7026FF2ADBEED800679FCE /* DetailVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EC0C9EA22AE4FFA7003709D2 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		EC56FABD2AD7D05A0078459E /* SpaceX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpaceX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC56FAC02AD7D05A0078459E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC56FAC22AD7D05A0078459E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		EC56FAC92AD7D05C0078459E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EC56FACC2AD7D05C0078459E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC56FACE2AD7D05C0078459E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC56FADF2AD7D29B0078459E /* CacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
 		EC56FAE12AD7D6B50078459E /* APIURLs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIURLs.swift; sourceTree = "<group>"; };
@@ -78,6 +85,13 @@
 		EC7026E02AD9605300679FCE /* PastLaunchDateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastLaunchDateView.swift; sourceTree = "<group>"; };
 		EC7026E22AD973F400679FCE /* StaticDateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticDateView.swift; sourceTree = "<group>"; };
 		EC7026E42AD9915600679FCE /* GFAlertVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAlertVC.swift; sourceTree = "<group>"; };
+		EC7026EE2ADA85C200679FCE /* LaunchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchCell.swift; sourceTree = "<group>"; };
+		EC7026F02ADAEEF300679FCE /* GFAttributesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAttributesVC.swift; sourceTree = "<group>"; };
+		EC7026F72ADB032100679FCE /* DataLoadingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLoadingVC.swift; sourceTree = "<group>"; };
+		EC7026F92ADB2C8B00679FCE /* GFLinksVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFLinksVC.swift; sourceTree = "<group>"; };
+		EC7026FB2ADB36B300679FCE /* UpcomingDateVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingDateVC.swift; sourceTree = "<group>"; };
+		EC7026FD2ADBEA4600679FCE /* HomeVCViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVCViewModel.swift; sourceTree = "<group>"; };
+		EC7026FF2ADBEED800679FCE /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,8 +99,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC56FAF32AD7F2980078459E /* SnapKit in Frameworks */,
-				EC56FAF52AD7F2980078459E /* SnapKit-Dynamic in Frameworks */,
+				EC0C9EA62AE50D1C003709D2 /* SnapKit in Frameworks */,
+				EC0C9EA82AE50D1C003709D2 /* SnapKit-Dynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,7 +241,7 @@
 				EC56FAC02AD7D05A0078459E /* AppDelegate.swift */,
 				EC56FAC22AD7D05A0078459E /* SceneDelegate.swift */,
 				EC56FAC92AD7D05C0078459E /* Assets.xcassets */,
-				EC56FACB2AD7D05C0078459E /* LaunchScreen.storyboard */,
+				EC0C9EA22AE4FFA7003709D2 /* Launch Screen.storyboard */,
 			);
 			path = Support;
 			sourceTree = "<group>";
@@ -236,6 +250,7 @@
 			isa = PBXGroup;
 			children = (
 				EC56FAFE2AD80C160078459E /* HomeVC.swift */,
+				EC7026FD2ADBEA4600679FCE /* HomeVCViewModel.swift */,
 			);
 			path = HomeScreen;
 			sourceTree = "<group>";
@@ -243,6 +258,7 @@
 		EC56FAFD2AD80C0A0078459E /* DetailScreen */ = {
 			isa = PBXGroup;
 			children = (
+				EC7026FF2ADBEED800679FCE /* DetailVC.swift */,
 			);
 			path = DetailScreen;
 			sourceTree = "<group>";
@@ -259,6 +275,7 @@
 			isa = PBXGroup;
 			children = (
 				EC7026C92AD8430A00679FCE /* AttributeCell.swift */,
+				EC7026EE2ADA85C200679FCE /* LaunchCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -293,6 +310,10 @@
 			isa = PBXGroup;
 			children = (
 				EC7026E42AD9915600679FCE /* GFAlertVC.swift */,
+				EC7026F02ADAEEF300679FCE /* GFAttributesVC.swift */,
+				EC7026F72ADB032100679FCE /* DataLoadingVC.swift */,
+				EC7026F92ADB2C8B00679FCE /* GFLinksVC.swift */,
+				EC7026FB2ADB36B300679FCE /* UpcomingDateVC.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -326,8 +347,8 @@
 			);
 			name = SpaceX;
 			packageProductDependencies = (
-				EC56FAF22AD7F2980078459E /* SnapKit */,
-				EC56FAF42AD7F2980078459E /* SnapKit-Dynamic */,
+				EC0C9EA52AE50D1C003709D2 /* SnapKit */,
+				EC0C9EA72AE50D1C003709D2 /* SnapKit-Dynamic */,
 			);
 			productName = SpaceX;
 			productReference = EC56FABD2AD7D05A0078459E /* SpaceX.app */;
@@ -358,7 +379,7 @@
 			);
 			mainGroup = EC56FAB42AD7D05A0078459E;
 			packageReferences = (
-				EC56FAF12AD7F2980078459E /* XCRemoteSwiftPackageReference "SnapKit" */,
+				EC0C9EA42AE50D1C003709D2 /* XCRemoteSwiftPackageReference "SnapKit" */,
 			);
 			productRefGroup = EC56FABE2AD7D05A0078459E /* Products */;
 			projectDirPath = "";
@@ -374,7 +395,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC56FACD2AD7D05C0078459E /* LaunchScreen.storyboard in Resources */,
+				EC0C9EA32AE4FFA7003709D2 /* Launch Screen.storyboard in Resources */,
 				EC56FACA2AD7D05C0078459E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -399,16 +420,23 @@
 				EC7026DB2AD88F5B00679FCE /* DateComponentView.swift in Sources */,
 				EC7026E32AD973F400679FCE /* StaticDateView.swift in Sources */,
 				EC56FAF92AD7F3790078459E /* Double.swift in Sources */,
+				EC7026F12ADAEEF300679FCE /* GFAttributesVC.swift in Sources */,
 				EC7026CD2AD848D600679FCE /* GFImageView.swift in Sources */,
+				EC7026F82ADB032100679FCE /* DataLoadingVC.swift in Sources */,
+				EC7027002ADBEED800679FCE /* DetailVC.swift in Sources */,
 				EC56FAC12AD7D05A0078459E /* AppDelegate.swift in Sources */,
 				EC7026DF2AD9306600679FCE /* LinkItemView.swift in Sources */,
+				EC7026FE2ADBEA4600679FCE /* HomeVCViewModel.swift in Sources */,
 				EC56FAFF2AD80C160078459E /* HomeVC.swift in Sources */,
 				EC56FAE02AD7D29B0078459E /* CacheManager.swift in Sources */,
 				EC56FAC32AD7D05A0078459E /* SceneDelegate.swift in Sources */,
+				EC7026FA2ADB2C8B00679FCE /* GFLinksVC.swift in Sources */,
+				EC7026EF2ADA85C200679FCE /* LaunchCell.swift in Sources */,
 				EC56FAE82AD7DA960078459E /* LaunchType.swift in Sources */,
 				EC56FAEC2AD7E9CC0078459E /* CGFloat+Ext.swift in Sources */,
 				EC7026E12AD9605300679FCE /* PastLaunchDateView.swift in Sources */,
 				EC56FAFB2AD7FD520078459E /* NetworkManager.swift in Sources */,
+				EC7026FC2ADB36B300679FCE /* UpcomingDateVC.swift in Sources */,
 				EC7026CA2AD8430A00679FCE /* AttributeCell.swift in Sources */,
 				EC7026C72AD8312700679FCE /* GFButton.swift in Sources */,
 				EC7026D22AD84C0900679FCE /* GFBodyLabel.swift in Sources */,
@@ -420,17 +448,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		EC56FACB2AD7D05C0078459E /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EC56FACC2AD7D05C0078459E /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		EC56FACF2AD7D05C0078459E /* Debug */ = {
@@ -566,6 +583,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -596,6 +614,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -636,7 +655,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		EC56FAF12AD7F2980078459E /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+		EC0C9EA42AE50D1C003709D2 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
 			requirement = {
@@ -647,14 +666,14 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		EC56FAF22AD7F2980078459E /* SnapKit */ = {
+		EC0C9EA52AE50D1C003709D2 /* SnapKit */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = EC56FAF12AD7F2980078459E /* XCRemoteSwiftPackageReference "SnapKit" */;
+			package = EC0C9EA42AE50D1C003709D2 /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = SnapKit;
 		};
-		EC56FAF42AD7F2980078459E /* SnapKit-Dynamic */ = {
+		EC0C9EA72AE50D1C003709D2 /* SnapKit-Dynamic */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = EC56FAF12AD7F2980078459E /* XCRemoteSwiftPackageReference "SnapKit" */;
+			package = EC0C9EA42AE50D1C003709D2 /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = "SnapKit-Dynamic";
 		};
 /* End XCSwiftPackageProductDependency section */

@@ -42,7 +42,6 @@ final class DateComponentView: UIView {
         valueLabel.text = value
     }
     
-    
     private func configureContainerStackView() {
         containerStackView = GFStackView(axis: .horizontal)
         addSubview(containerStackView)
